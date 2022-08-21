@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"">
+
+    <title>Project 2 - Projects</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rambla|Permanent+Marker|Kalam:wght@700|Dancing+Script:wght@700|Aboreto|Montserrat:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+
+    <link href="./assets/css/bootstrap.css" rel="stylesheet"> 
+    <link href="./assets/css/custom.css" rel="stylesheet"> 
+
+  </head>
+
+  <body>
+    <style>
+
+    .kalam-text {
+      font-family: 'Kalam';
+      font-style: cursive;
+      font-size: 64px;
+      text-align: center;
+    }
+   .montserrat-text {
+      font-family: 'Montserrat';
+      font-style: sans-serif;
+      font-size: 48px;
+      font-weight:500; 
+      text-align: center;
+   }
+    .rambla-text {
+      font-family: 'Rambla', sans-serif;
+      font-weight:600;
+      font-size: 48px;
+      text-align: center;
+    }
+    .dancing-text {
+      font-family: 'Dancing Script';
+      font-style: cursive;
+      font-weight:600;
+      font-size: 60px;
+      text-align: center;
+    }
+    .marker-text {
+      font-family: 'Permanent Marker';
+      font-style: cursive;
+      font-weight:600;
+      font-size: 60px;
+      text-align: center;
+    }
+    </style>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+      <div class="container-fluid">
+        <img src="./assets/img/pamarcher.jpg" class="rounded-circle" height="30px" width="30px">
+        <a class="navbar-brand" >&nbsp Pam Archer's Web Design Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Choose From</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  App Demos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://pamelaarcher.github.io/addpacmen">Pacman Factory Demo</a></li>
+                  <li><a class="dropdown-item" href="https://pamelaarcher.github.io/movingeyes">Roving Eyes Demo</a></li>
+                  <li><a class="dropdown-item" href="https://pamelaarcher.github.io/bostontransit">Boston Bus Tracking Demo</a></li>
+                  <li><a class="dropdown-item" href="https://pamelaarcher.github.io/ballintervals">Enhanced Ball Simulation Demo</a></li>
+                  <li><a class="dropdown-item" href="https://pamelaarcher.github.io/bigbang">Big Bang Demo</a></li>
+                  <li><a class="dropdown-item" href="https://pamelaarcher.github.io/dynamicgrid/">Dynamic Grid</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/pamelaarcher">Repositories</a>
+              </li>
+              <li class="nav-item mt-2 mx-2">
+                <a class="fab fa-github fa-lg" href="https://github.com/pamelaarcher"></a>
+              </li>
+              <li class="nav-item mt-2 ms-2">
+                <a class="fab fa-linkedin fa-lg" href="https://www.linkedin.com/in/pamela-archer-671b471/"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Profile information inclusion of about, bio and video -->
+  <section id="projectheader">
+
+    <!-- <div class="container-lg"> -->
+      <div class="row mt-5 mb-5 bg-proj">
+        <div class="kalam-text">My Web Application Projects</div>
+      </div>
+    <!-- </div> -->
+
+  </section>
+
+  <section id="projects">
+ 
+    <div class="col-12 mt-4">
+      <div class="mb-5 ps-3">
+        <p class="text-sm"></p>
+        <p class="text-sm"></p>
+      </div>
+    </div>
+      <div class="container-lg">
+      <div class="row">
+        <div class="col-xl-3 mx-auto">
+          <div class="card bg-light mb-3">
+            <div class="card-header text-center p-0 mt-n4">The Pacman Factory
+            </div>
+            <div class="card-body px-3">
+              <a class="d-block shadow-xl border-radius-xl">
+                <img src="./assets/img/PacManDemo.png" class="img-fluid height=200 shadow border-radius-xl">
+              </a>
+              <div class="prof-card-heading1 mt-3 my-1">Description
+              </div>
+              <p class="card-text text-sm" style="color: #fff">
+                This web application is an HTML/Javascript Pacman generating factory.  When the <b><i>Add PacMan</i></b>&nbsp button is pressed, it adds a new Pacman into the page box constainer and internal array. A <b><i>Start Game</i></b>&nbsp button starts the reading of the Pacmen array and moves them according to random velocity and new position. 
+              </p>
+              <div style="margin: 0 auto; width: 200px; text-align: center;">
+                <a href="https://github.com/pamelaarcher/addpacmen" class="btn btn-facebook py-1 px-2">View Project</a>
+                <div class="btn-space-sm"></div> 
+                <a href="https://pamelaarcher.github.io/addpacmen" class="btn btn-facebook py-1 px-2">Run Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 mx-auto">
+          <div class="card bg-light mb-3">
+            <div class="card-header text-center p-0 mt-n4">Roving Eyes
+            </div>
+            <div class="card-body px-3">
+              <a class="d-block shadow-xl border-radius-xl">
+                <img src="./assets/img/RovingEyes.png" class="img-fluid height=200 shadow border-radius-xl">
+              </a>
+              <div class="prof-card-heading1 mt-3 my-1">Description
+              </div>
+              <p class="card-text text-sm" style="color: #fff">
+                This project creates two eyes that follow the mouse around the screen.  It defines both the eye and eyeball as classes that are then used by the javascript to check for a mouse move and based on the location of the mouse, it moves the eyeballs in the same direction. <span style="color: #abb6c2">junk text to make the paragraph longer</span>
+              </p>
+              <div style="margin: 0 auto; width: 200px; text-align: center;">
+                <a href="https://github.com/pamelaarcher/movingeyes" class="btn btn-facebook py-1 px-2">View Project</a>
+                <div class="btn-space-sm"></div>
+                <a href="https://pamelaarcher.github.io/movingeyes" class="btn btn-facebook py-1 px-2">Run Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 mx-auto">
+          <div class="card bg-light mb-3">
+            <div class="card-header text-center p-0 mt-n4">Boston Bus Tracking
+            </div>
+            <div class="card-body px-3">
+              <a class="d-block shadow-xl border-radius-xl">
+                <img src="./assets/img/BostonTransit.png" class="img-fluid height=200 shadow border-radius-xl">
+              </a>
+              <div class="prof-card-heading1 mt-3 my-1">Description
+              </div>
+              <p class="card-text text-sm" style="color: #fff">
+                This project displays the transit stations for the Boston Green and Red Lines as well as current vehicles in route by calling the MBTA server and returning JSON data real time. Clicking the button will make a new call to the server for vehicle location and move them real time. <span style="color: #abb6c2">junk text to make the paragraph longer</span>
+              </p>
+              <div style="margin: 0 auto; width: 200px; text-align: center;">
+                <a href="https://github.com/pamelaarcher/bostontransit" class="btn btn-facebook py-1 px-2">View Project</a>
+                <div class="btn-space-sm"></div>
+                <a href="https://pamelaarcher.github.io/bostontransit" class="btn btn-facebook py-1 px-2">Run Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 mx-auto">
+          <div class="card bg-light mb-3">
+            <div class="card-header text-center p-0 mt-n4">Big Bang
+            </div>
+            <div class="card-body px-3">
+              <a class="d-block shadow-xl border-radius-xl">
+                <img src="./assets/img/BigBang.png" class="img-fluid height=200 shadow border-radius-xl">
+              </a>
+              <div class="prof-card-heading1 mt-3 my-1">Description
+              </div>
+              <p class="card-text text-sm" style="color: #fff">
+                This application acts as a <b><i>factory</i></b>&nbsp for generating a large number of red and blue balls which move around the screen in random patterns.  There is logic to ensure each ball does not go outside of the box container on the page.<span style="color: #abb6c2">junk text to make the paragraph longer and longer and longer and longer</span>
+              </p>
+              <div style="margin: 0 auto; width: 200px; text-align: center;">
+                <a href="https://github.com/pamelaarcher/bigbang" class="btn btn-facebook py-1 px-2">View Project</a>
+                <div class="btn-space-sm"></div>
+                <a href="https://pamelaarcher.github.io/bigbang" class="btn btn-facebook py-1 px-2">Run Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
