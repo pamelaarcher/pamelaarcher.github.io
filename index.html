@@ -7,23 +7,54 @@
     <title>Porfolio Main</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@700&family=Montserrat:ital,wght@1,500;1,600&family=Permanent+Marker&family=Rambla:ital@1&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+    <!-- <link href="./assets/css/bootstrap.css" rel="stylesheet">  -->
     <link href="./assets/css/custom.css" rel="stylesheet"> 
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
 
     <style>
-     .montserrat-text {
+      .kalam-text {
+        font-family: 'Kalam';
+        font-style: cursive;
+        font-size: 64px;
+        text-align: center;
+      }
+      .montserrat-text {
         font-family: 'Montserrat';
         font-style: sans-serif;
-        font-size: 14px;
-        font-weight:500;
-     }
-    </style>
+        font-size: 16px;
+        font-weight:500; 
+        text-align: center;
+      }
+      .rambla-text {
+        font-family: 'Rambla', sans-serif;
+        font-weight:400;
+        font-size: 48px;
+        text-align: left;
+      }
+      .dancing-text {
+        font-family: 'Dancing Script';
+        font-style: cursive;
+        font-weight:300;
+        font-size: 200%;
+        text-align: center;
+      }
+      .marker-text {
+        font-family: 'Permanent Marker';
+        font-style: cursive;
+        font-weight:600;
+        font-size: 60px;
+        text-align: center;
+      }
+      .pam-image {
+
+      }
+      </style>
   </head>
 
   <body>
@@ -42,11 +73,11 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">About</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
-              <!-- <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="./profile.html">Profile</a>
-              </li> -->
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="./projects.html">Projects</a>
               </li>
@@ -73,127 +104,57 @@
                 <a class="fab fa-linkedin fa-lg" href="https://www.linkedin.com/in/pamela-archer-671b471/"></a>
               </li>
             </ul>
-            <!-- <form class="d-flex mt-3 mt-lg-0" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
           </div>
         </div>
       </div>
     </nav>
     <!-- Profile information inclusion of about, bio and video -->
-    <section id="profile" class=""bg-light mt-5">
-      <div class="container">
-        <div class="row my-5 gx-5 mx-6">
-          <div class="col-5">
-            <div class="card card-body">
-              <div class="row gx-4 mb-2">
-                <div class="col-auto">
-                  <div class="avatar avatar-xxl position-relative">
-                    <img src="./assets/img/pamarcher.jpg" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
-                  </div>
-                </div>
-                <div class="col-auto my-auto">
-                  <div class="h-100">
-                    <h5 class="text-card-heading1 text-xs font-weight-bolder">
-                      Pam Archer
-                    </h5>
-                    <p class="text-card-heading2 font-weight-normal text-sm">
-                      Web Design / Full Stack Development
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body p-2">
-                <h6 class="text-uppercase text-card-heading1 text-xs font-weight-bolder">About Myself</h6>
-                <p class="montserrat-text" style="color:#495057; margin: 5px">I am from Broomfield, Colorado a small bedroom community north of Denver. &nbsp I moved here 5 years ago from the California Bay Area with my spouse to be closer to family and to enjoy the great outdoors that Colorado offers including bicycling, snowboarding and incredible hiking. &nbsp I also love scuba diving and traveling to different world destinations.
-                </p>
-                <p class="montserrat-text" style="color:#495057; margin: 5px">
-                For the past 25+ years, I have worked in the Healthcare industry leading technical teams in the design and delivery of complex software applications. &nbsp I love taking a problem and defining solutions to solve that problem. &nbsp It has been very rewarding to see direct outcomes of the work my team does and how that shows up in the final product.  
-                </p>
-                <p class="montserrat-text" style="color:#495057">
-                Although this has been a very fulfilling career, I have recently chosen to take an early retirement to get back to my passion of hands-on web development, building beautiful but functional sites for non-profits and small businesses. &nbsp I am currently attending an MIT full stack web development certification program whose projects are featured on this site to bring my skills current and support this goal.  
-                </p>
-                <ul class="list-group text-bio-body">
-                  <li class="list-group-item border-0 ps-0 text-sm">
-                    <span class="text-bio-heading1">&nbsp Email:</span>
-                    <span class="text-card-heading2 text-xs font-weight-normal">&nbsp; pamearch10@gmail.com</span>
-                  </li>
-                  <li class="list-group-item border-0 ps-0 text-sm">
-                    <span class="text-bio-heading1">&nbsp Location:</span>
-                    <span class="text-card-heading2 text-xs font-weight-normal">&nbsp; Colorado, USA</span>
-                  </li>
-                  <li class="list-group-item border-0 ps-0 text-sm">
-                    <span class="text-bio-heading1">&nbsp Github: &nbsp</span>
-                    <a href="https://github.com/pamelaarcher" class="text-card-heading2 text-xs font-weight-normal">pamelaarcher 
-                    </a>
-                  </li>
-                  <li class="list-group-item border-0 ps-0 text-sm">
-                    <span class="text-bio-heading1">&nbsp Social:</span>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp; 
-                    <a href="http://facebook.com/pamela.archer.52" class="btn btn-facebook btn-lg mb-0 mb-0 px-2 py-1 py-1">
-                      <i class="fab fa-facebook fa-lg"></i>&nbsp Facebook
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://instagram.com/pamela.archer.52" class="btn btn-instagram btn-lg mb-0 px-2 py-1">
-                      <i class="fab fa-instagram fa-lg" ></i>&nbsp Instagram
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp; 
-                    <a href="http://twitter.com/pamearch10" class="btn btn-twitter btn-lg mb-0 px-3 py-1">
-                      <i class="fab fa-twitter fa-lg"></i>&nbsp Twitter
-                    </a>
-                  </li>
-                  <li class="list-group-item border-0 ps-0 text-sm">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://www.youtube.com/channel/UCLt6_Unl7FrCivyF4gpuPtQ" class="btn btn-youtube btn-lg mb-0 px-2 py-1">
-                      <i class="fab fa-youtube fa-lg"></i>&nbsp YouTube
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp; 
-                    <a href="https://www.linkedin.com/in/pamela-archer-671b471/" class="btn btn-linkedin btn-lg mb-0 px-2 py-1">
-                      <i class="fab fa-linkedin fa-lg"></i>&nbsp LinkedIn
-                    </a>
-                  </li>
-                </ul>
-                </ul>
-              </div>
+    <section id="landing">
+      <div class="container-xlg p-0 mx-5">
+        <div class="row mt-4 mb-2 gx-5">
+          <div class="col-12">
+            <p class="kalam-text" style="color:#b3cce4; margin: 5px">
+              Welcome to My Github Portfolio
+            </p>
+          </div>
+        </div>
+        <div class="row my-1 gx-2">
+          <div class="col-5 pe-5">
+            <p class="rambla-text" style="color:#ebebeb;">
+            I'm <span style="color:#3d7cba">Pam Archer</span>
+            </p>
+              <p class="rambla-text" style="color:#b3cce4; font-size: 24px; font-style: italic">
+                My passion is building beautiful but functional sites for non-profits and small businesses
+            </p>
+            <img src="./assets/img/pamarcher2.jpg" alt="" class="img-fluid rounded-circle w-85 ms-5">
+            <div class="float-end">
+              <p>&nbsp</p>
+              <a href="./profile.html" role="button" class="btn btn-landing mb-0 px-2 py-1">More About Me
+              </a>
             </div>
           </div>
-        <div class="col-7">
-          <h5 class="text-bio-heading1 font-weight-bolder">
-            More About Me
-          </h5>
-          <p class="text-sm">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-MK0WUqsmiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
-
-          <h5 class="text-bio-heading1 font-weight-bolder">
-            Professional Summary
-          </h5>
-          <!-- <p class="text-bio-body text-sm para-spacer"> -->
-          <p class="montserrat-text" style="color:#dee2e6; font-size: 16px;">
-            I joined Kaiser Permanente Health Plan in 2004 as a technical solutions consultant within their internal consulting organization responsible for Information Technology programs requirements gathering and technical designs. &nbsp I worked closely with business partners to deliver optimal technology solutions to address their Membership and Claims related business problems. &nbsp Over the next 18 years, I continued to support large systems replacement and enhancement programs through promotions to different leadership roles including Principal Solutions Architect, Senior and Executive Director where I led teams in the design and delivery of software. &nbsp These included multi-year programs such as the Medicare Modernization Act (MMA), the $850M Claims systems and $1B Membership replacement programs. 
-          </p>
-          <p class="montserrat-text" style="color:#dee2e6; font-size: 16px;">
-            Prior to joining Kaiser, I worked for the St Alphonsus Regional Health System in Boise, ID as their Director of IT Planning and Development.&nbsp I led a team of analysts, developers and project managers in the delivery of healthcare solutions, working closely with physicians, patient focus groups, department heads and ancillary services.
-          </p>
-          <h6 class="text-bio-heading1 font-weight-bolder">
-            Degrees and Professional Development
-          <ul style="list-style-type:square; color:#dee2e6; font-size: 16px;">
-            <li class="montserrat-text" style="color:#dee2e6; font-size: 16px; margin-top: 6px">&nbsp Bachelors Degree in Computer Science - Seattle Pacific University
-            </li>
-            <li class="montserrat-text" style="color:#dee2e6; font-size: 16px; margin-top: 6px">&nbsp Kaiser Permanente Strategic Leadership Program
-            </li>
-            <li class="montserrat-text" style="color:#dee2e6; font-size: 16px; margin-top: 6px">&nbsp Wharton School of Business – Business Strategy Competitive Advantage Course
-            </li>
-            <li class="montserrat-text" style="color:#dee2e6; font-size: 16px; margin-top: 6px">&nbsp Leading SAFe Agile and SAFe Agile Product Owner/Product Management
-            </li>
+          <div class="col-7">
+            <p class="rambla-text" style="color:#b3cce4; text-align: left; font-size: 24px; font-style: italic; margin-top: 25px; margin-left: 20px; margin-bottom: 0px">        
+            Words I have tried to live by in my technology career
+            </p>
+            <p class="dancing-text" style="color:#ebebeb; margin: 5px">
+              Start your work from where you live, with the small concrete needs right around you. &nbsp Help ease tension in your workplace. &nbsp Help feed the person right in front of you. &nbsp We each have a deep personal obligation to live simply, to look after the needs of our brothers and sisters, and to share in the happiness and misery they are suffering. &nbsp In this method, you don’t ask “What do I want from life?” &nbsp  You ask, “What does life want from me? &nbsp What are my circumstances calling me to do? &nbsp In this scheme of things we don’t create our lives; we are summoned by life.”    
+            </p>
+            <div class="float-end">
+            <p class="dancing-text" style="color:#ebebeb; margin: 5px">
+              David Brooks - Road to Character
+            </p>
+            </div>
+          </div>
         </div>
+        <p style="margin-top: 10px">&nbsp</p>
+        <hr style="height:2px; width:100%; border-width:3px; color:#3d7cba; background-color: #3d7cba">
       </div>
-    </div>
   </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   </body>
 </html>
