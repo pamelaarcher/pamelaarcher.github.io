@@ -32,7 +32,7 @@ This application is made up of 3 main website page files as well as a number of 
 
 ## Demo
 
-* [Big Bang Demo](https://pamelaarcher.github.io/bigbang)
+* [Repository Demo](https://pamelaarcher.github.io/)
 
 ## License
 
