@@ -90,13 +90,17 @@
         font-family: 'Rambla', serif;
         font-size: 16px;
     }
+    .text-card-body {
+      color: var(--bs-gray-500)!important;
+      font-size: 16px;
+  }
 
     .para-spacer {
      padding-top: 5px;
      padding-bottom: 5px
  }
 
-      .bd-placeholder-img {
+    .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
         -webkit-user-select: none;
@@ -632,13 +636,18 @@
       height: auto;
       display: inline-block;
     }
+    .btn-space-xl {
+      margin-right: 330px;
+      height: auto;
+      display: inline-block;
+    }
 
     .navbar-dark {
       --bs-navbar-hover-color: #3d7cba;
       --bs-navbar-active-color: #3d7cba;
   }
-    
-.dropdown-menu {
+
+  .dropdown-menu {
     --bs-dropdown-min-width: 10rem;
     --bs-dropdown-padding-x: 0;
     --bs-dropdown-padding-y: 0.5rem;
@@ -677,5 +686,37 @@
     background-color: var(--bs-dropdown-bg);
     background-clip: padding-box;
     border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
-    border-radius: var(--bs-dropdown-border-radius)
+    border-radius: var(--bs-dropdown-border-radius);
 }
+.w-55 {
+  width: 55% !important
+}
+.w-85 {
+  width: 85% !important
+}
+.ms-7 {
+  margin-left: 5rem !important
+}
+.btn-landing {
+  background-color: #3d7cba;
+  color:#ebebeb;
+}
+.btn.btn-landing:focus,
+    .btn.btn-landing:hover,
+    .btn.btn-landing:active,
+    .btn.btn-landing:active:focus {
+      background-color: #3d7cba;
+      color: var(--bs-gray-500);
+      border-color: #3d7cba;
+    }
+
+ .list-group-contact {
+      background-color:#e5e8ec;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      border-radius: var(--bs-list-group-border-radius)
+      color: var(--bs-gray-500)!important;
+      font-size: 16px;
+  }
